@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    
+}
+body{
+    width: auto;
+    height: auto;
+    color: white;
+}
+.container .navbar{
+    width: 100%;
+    height: 110px;
+    background: white;
+    position: fixed;
+    
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.logo{
+    display: inline-block;
+    padding-top: 3px;
+    padding-bottom:3px;
+    padding-left: 10px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 100px;
+    line-height: 80px;
+}
+.navbar ul li a{
+color: orange;
+text-decoration: none;
+font-size: 30px;
+padding: 6px 13 px;
+display: inline-block;
+font-weight: bold;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background:
+    linear-gradient(135deg, #008000 21px, #000000 22px, #000000 24px, transparent 24px, transparent 67px, #000000 67px,#000000 69px, transparent 69px),
+    linear-gradient(225deg, #008000 21px, #000000 22px, #000000 24px, transparent 24px, transparent 67px, #000000 67px, #000000 69px, transparent 69px)0 64px;
+    background-color:#008000;
+    background-size: 64px 128px;
+}
+p{
+    font-size: 25px;
+    margin-top: 50px;   
+}
+h2{
+    padding-top: 150px;
+
+}
